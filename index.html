@@ -7,23 +7,24 @@
   </head>
   <body>
     <header id="header">
-      <!-- add img here with id header-img -->
-      <nav id="nav-bar">
+      <img src="http://icons.iconarchive.com/icons/icons8/ios7/256/Astrology-Air-Element-icon.png" id="header-img">
+      <nav id="nav-bar" class="stickyhead">
         <ul>
-          <li class="nav-link">item 1</li>
-          <li class="nav-link">item 2</li>
-          <li class="nav-link">item 3</li>
+          <li ><a href="#intro" class="nav-link"></a>How it Works</li>
+          <li ><a href="#video" class="nav-link"></a>Watch</li>
+          <li ><a href="#form" class="nav-link"></a>Subscribe</li>
         </ul>
       </nav>
-
-      <video src="videofile.ogg" autoplay poster="posterimage.jpg" id="video">
-
-      </video>
-
-      <form class="subscription-form" id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-        <input type="email" name="email" id="email" placeholder="you@breathless.com" required>
-        <input type="submit" name="submit" id="submit" value="I want to breathe!">
-      </form>
     </header>
+
+    <h2 id="intro">How it works</h2>
+    <p>Air is a molecular mixture that can be used to breathe. It's one of the most popular products on Earth, most living organisms use it! Our goal is to bring air to everyone, even obligate anaerobes.
+       They just don't know what they're missing out on!</p>
+       <p>Subscribe to make sure you stay up to date on news about air!</p>
+       <iframe  id ="video" width="560" height="315" src="https://www.youtube.com/embed/08oHlTwFpUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <form class="subscription-form" id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+            <input type="email" name="email" id="email" placeholder="you@breathless.com" required>
+            <input type="submit" name="submit" id="submit" value="I want to breathe!">
+          </form>
   </body>
 </html>

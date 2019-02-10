@@ -1,18 +1,68 @@
-nav{
-  position: fixed;
-  margin:0px;
-  display: flex;
+body{
+  background-color: #D7D8DE;
+  margin; 0;
 }
 
-p{
-  color: lightgray;
+nav{
+  background-color: #D4AA6A;
 }
+
+.nav-bar{
+      display: flex;
+      flex-direction: row;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
 
 @media screen and (max-width: 500px){
   body{
-    background-color: #D4aa6a;
+    background-color: #AEB4C9;
+    color: #1C1D21;
   }
   nav{
-    background-color: #372373;
+    background-color: #AEB4C9;
   }
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+}
+
+.stickyhead{
+    position: fixed;
+    top:0;
+    width: 50%;
+    right:0;
+}
+
+#video{
+  padding-top: 1px;
+}
+
+header>img{
+  color:blue;
+  max-height: 50px;
+  position:absolute;
+  top:5px;;
+  left:10px;
+}
+
+h2{
+  /* color: lightgray; */
+  padding-top: 50px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+p{
+  font-family: sans-serif;
 }
