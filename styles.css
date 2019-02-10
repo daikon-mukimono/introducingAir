@@ -1,0 +1,18 @@
+nav{
+  position: fixed;
+  margin:0px;
+  display: flex;
+}
+
+p{
+  color: lightgray;
+}
+
+@media screen and (max-width: 500px){
+  body{
+    background-color: #D4aa6a;
+  }
+  nav{
+    background-color: #372373;
+  }
+}
